@@ -1,0 +1,58 @@
+{
+  "author": "Jason Dobry <jason.dobry@gmail.com> (http://pseudobry.com/)",
+  "name": "MockedUp",
+  "description": "A plugin for RequireJS that loads a module and mocks the module's dependencies. Most useful for unit testing.",
+  "version": "0.0.0",
+  "homepage": "http://github.jasondobry.com/MockedUp/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmdobry/MockedUp.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jmdobry/MockedUp/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/jmdobry/MockedUp/blob/master/LICENSE-MIT.md"
+    }
+  ],
+  "directories" : { 
+    "lib": "./lib",
+    "dist": "./dist",
+    "bin" : "./bin",
+    "test" : "./test",
+  },
+  "main": "./lib/MockedUp",
+  "bin": {
+    "mockedup": "./bin/mockedup"
+  },
+  "scripts": {
+    "test": "node node_modules/grunt/bin/grunt jasmine -v"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "build",
+    "test",
+    "init",
+    "scaffold",
+    "tool"
+  ],
+  "dependencies": {
+    "grunt": "0.3.12",
+    "grunt-contrib": "0.1.6",
+    "grunt-jasmine-task": "0.2.2"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "_id": "mockedup@0.0.0",
+  "optionalDependencies": {},
+  "_engineSupported": true,
+  "_npmVersion": "1.1.48",
+  "_nodeVersion": "v0.8.6",
+  "_defaultsLoaded": true,
+  "_from": "mockedup"
+}

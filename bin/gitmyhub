@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+/*
+ * gitmyhub
+ * http://github.jasondobry.com/gitmyhub/
+ *
+ * Copyright (c) 2012 Jason Dobry
+ * Licensed under the MIT license.
+ * http://github.com/jmdobry/gitmyhub/blob/master/LICENSE-MIT
+ */
+
+ /*jslint node:true */
+'use strict';
+
+var program = require('../lib/options');
+console.log(program);
+require('../lib/gitmyhub').route(program);
