@@ -9,16 +9,17 @@ A plugin for RequireJS that loads a module and mocks the module's dependencies. 
 ## Getting Started
 
 (Eventually. Not Published Yet.)
-Install the [MockedUp](https://github.com/jmdobry/MockedUp) through npm like so: `npm install -g mockedup`
+* `npm install mockedup`
+* I'll also include a distribution file that can be used outside of nodeJS environment.
 
 ## Usage
 
-None yet really.
+`define(['mockedup!myModule'], function (...`
 
 ## Roadmap
 
 #### [0.0.1](https://github.com/jmdobry/MockedUp/issues?milestone=2)
-* Get something working
+* Initial AST traversal function
 
 ## Bugs
 
@@ -56,8 +57,10 @@ npm test
 
 ## Release History
 
-see [CHANGELOG](/jmdobry/MockedUp/blob/master/CHANGELOG).
+see [CHANGELOG](/jmdobry/MockedUp/blob/master/CHANGELOG.md).
 
 ## License
 Copyright (c) 2012 Jason Dobry.
 Licensed under the MIT license.
+
+see [LICENSE](/jmdobry/MockedUp/blob/master/LICENSE-MIT.md).
