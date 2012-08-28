@@ -1,24 +1,26 @@
 # MockedUp
 ==========
 
-A plugin for RequireJS that loads a module and mocks the module's dependencies. Most useful for unit testing. This is in very early planning/development, as the ideas for it are still in my head and not yet on paper, so to speak.
+A plugin for RequireJS that loads a module and mocks the module's dependencies. Most useful for unit testing. This will benefit those who do not want to maintain a billion config files or a separate test-code base.
 
 ## Current Stable Version
-0.0.0   [![Build Status](https://secure.travis-ci.org/jmdobry/mockedup.png)](http://travis-ci.org/jmdobry/mockedup)
+0.0.0   [![Build Status](https://secure.travis-ci.org/jmdobry/MockedUp.png)](http://travis-ci.org/jmdobry/MockedUp)
 
 ## Getting Started
 
 (Eventually. Not Published Yet.)
 * `npm install mockedup`
-* I'll also include a distribution file that can be used outside of nodeJS environment.
+* I'll also include a distribution file that can be used outside of the nodeJS environment.
 
 ## Usage
 
-`define(['mockedup!myModule'], function (...`
+`define(['mockedup!myModule'], function (myModule) { ...`
+
+`myModule` will then be available as normal, but its dependencies will be mocked (and their dependencies mocked, and so on). 
 
 ## Roadmap
 
-#### [0.0.1](https://github.com/jmdobry/MockedUp/issues?milestone=2)
+#### [0.0.1](https://github.com/jmdobry/MockedUp/issues?milestone=1)
 * Initial AST traversal function
 
 ## Bugs
